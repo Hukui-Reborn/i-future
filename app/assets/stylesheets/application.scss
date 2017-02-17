@@ -18,9 +18,27 @@
  @import "bootstrap";
  @import "font-awesome";
 
-.grey-background{
+
+
+.grey-background{  //浅灰色背景
   background-color:  #848484;
 }
+
+.bg2 {
+    background-image: url(https://ww2.sinaimg.cn/large/006tNc79gy1fctgbjl3f6j31kw0nu1ky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 110px;
+}
+h1.solgan{
+  margin-top: 100px;
+}
+
+.full-width{  //container-fluid 全屏专用
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
  .navbar {
      padding-top: 5px;
      padding-bottom: 5px;
@@ -43,6 +61,9 @@
 .bg-linear {  //index商品用渐变色背景
     background: linear-gradient(180deg, #EEEEEE, white);
     color: black;
+}
+.bg-black{
+  background:#2C2C2C;
 }
 .bg-white {  //白色背景，带阴影
     background: white;
@@ -68,6 +89,43 @@
     font-weight: 400;
     line-height: 26px;
 }
+.body-text-3 {  //
+    color: #EFF0F1;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    margin-top: 300px;
+}
+.body-text-2 {  //
+    color: #EFF0F1;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.index-button {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 300px;
+}
+.btn-danger {
+    color: #fff;//字体颜色
+    background-color: #EF6C00;//背景颜色
+    border-color: #EF6C00;//边框颜色
+}
+
+.btn-danger:hover {
+    background-color: #E65100;//鼠标放置在btn上的背景颜色
+    border-color: #E65100;//鼠标放置在btn上的边框颜色
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 8px 16px;//通过padding来决定btn的大小
+    font-size: 30px;//btn文字大小
+    letter-spacing: 3px;//调整文字间距
+    border-radius: 3px;//btn圆角
+    width: 200px;//这里用指定宽度把btn拉得更长
+}
+
 .price-text{  //单价用字体样式
   color: black;
   font-family: Roboto,Arial,sans-serif;
