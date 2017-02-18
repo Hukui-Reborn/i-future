@@ -92,30 +92,30 @@ h1.solgan{
 .body-text-3 {  //
     color: #EFF0F1;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 55px;
     margin-top: 300px;
 }
 .body-text-2 {  //
     color: #EFF0F1;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 40px;
 }
 .index-button {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 300px;
 }
 .btn-danger {
     color: #fff;//字体颜色
-    background-color: #EF6C00;//背景颜色
-    border-color: #EF6C00;//边框颜色
+    background-color: #FF6600;//背景颜色
+    border-color:  #FF6600;//边框颜色
 }
 
 .btn-danger:hover {
     background-color: #E65100;//鼠标放置在btn上的背景颜色
-    border-color: #E65100;//鼠标放置在btn上的边框颜色
+    border-color: white;//鼠标放置在btn上的边框颜色
 }
 
 .btn-lg, .btn-group-lg > .btn {
