@@ -57,6 +57,17 @@ h1.solgan{
     margin-top: -5px;
 }
 
+// .layout-company-logos img {
+// display: inline-block;
+// margin: 0 1em 1em;
+// height: 80px;
+// }
+//
+// .text-center {
+//   text-align: center;
+// }
+
+
 
 .bg-linear {  //index商品用渐变色背景
     background: linear-gradient(180deg, #EEEEEE, white);
@@ -89,19 +100,40 @@ h1.solgan{
     font-weight: 400;
     line-height: 26px;
 }
-.body-text-3 {  //
+.body-text-2 {  //
     color: #EFF0F1;
     font-size: 50px;
     font-weight: 200;
     line-height: 55px;
     margin-top: 300px;
 }
-.body-text-2 {  //
+.body-text-3 {  //
     color: #EFF0F1;
     font-size: 35px;
     font-weight: 200;
     line-height: 40px;
 }
+.body-text-4 {  //
+    color: #2C2C2C;
+    font-size: 55px;
+    font-weight: 200;
+    line-height: 60px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.body-text-5 {  //
+    color: #2C2C2C;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 50px;
+    margin-bottom: 80px;
+
+}
+
+.bg-milk{
+  background-color: #EDEFF0;
+}
+
 .index-button {
   text-align: center;
   margin-top: 80px;
