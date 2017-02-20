@@ -24,12 +24,7 @@
   background-color:  #F2F2F2;
 }
 
-.bg2 {
-    background-image: url(https://ww2.sinaimg.cn/large/006tNc79gy1fctgbjl3f6j31kw0nu1ky.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 110px;
-}
+
 h1.solgan{
   margin-top: 100px;
 }
@@ -62,10 +57,10 @@ h1.solgan{
     background: linear-gradient(180deg, #EEEEEE, white);
     color: black;
 }
-.bg-black{
+.bg-milk-1{
   padding-top: 200px;
-  padding-bottom:   200px;
-  background:#2C2C2C;
+  padding-bottom: 200px;
+  background:#EDEFF0;
 }
 .bg-white {  //白色背景，带阴影
     background: white;
@@ -92,13 +87,13 @@ h1.solgan{
     line-height: 26px;
 }
 .body-text-2 {  //
-    color: #EFF0F1;
-    font-size: 50px;
+    color: black;
+    font-size: 60px;
     font-weight: 200;
-    line-height: 55px;
+    line-height: 65px;
 }
 .body-text-3 {  //
-    color: #EFF0F1;
+    color: black;
     font-size: 35px;
     font-weight: 200;
     line-height: 40px;
@@ -120,10 +115,9 @@ h1.solgan{
 
 }
 
-.bg-milk{
+.bg-milk-2{
   background-color: #EDEFF0;
-  padding-top:100px;
-  padding-bottom: 100px;
+  padding-bottom: 75px;
 
 }
 
@@ -147,7 +141,7 @@ h1.solgan{
     padding: 8px 16px;//通过padding来决定btn的大小
     font-size: 30px;//btn文字大小
     letter-spacing: 3px;//调整文字间距
-    border-radius: 3px;//btn圆角
+    border-radius: 50px;//btn圆角
     width: 200px;//这里用指定宽度把btn拉得更长
 }
 
