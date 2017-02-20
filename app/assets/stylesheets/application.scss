@@ -24,11 +24,6 @@
   background-color:  #F2F2F2;
 }
 
-
-h1.solgan{
-  margin-top: 100px;
-}
-
 .full-width{  //container-fluid 全屏专用
   margin-left: -15px;
   margin-right: -15px;
@@ -53,16 +48,12 @@ h1.solgan{
 }
 
 
-.bg-linear {  //index商品用渐变色背景
-    background: linear-gradient(180deg, #EEEEEE, white);
-    color: black;
-}
 .bg-milk-1{
   padding-top: 200px;
   padding-bottom: 200px;
   background:#EDEFF0;
 }
-.bg-white {  //白色背景，带阴影
+.bg-white {  //商品列表白色背景，带阴影
     background: white;
     color: black;
     box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16);
@@ -124,6 +115,12 @@ h1.solgan{
 .index-button {
   text-align: center;
   margin-top: 80px;
+  border-radius: 50px;//btn圆角
+  width: 200px;//这里用指定宽度把btn拉得更长
+  padding: 8px 16px;//通过padding来决定btn的大小
+  font-size: 30px;//btn文字大小
+  letter-spacing: 3px;//调整文字间距
+  border-radius: 3px;//btn圆角
 
 }
 .btn-danger {
@@ -137,13 +134,6 @@ h1.solgan{
     border-color: white;//鼠标放置在btn上的边框颜色
 }
 
-.btn-lg, .btn-group-lg > .btn {
-    padding: 8px 16px;//通过padding来决定btn的大小
-    font-size: 30px;//btn文字大小
-    letter-spacing: 3px;//调整文字间距
-    border-radius: 50px;//btn圆角
-    width: 200px;//这里用指定宽度把btn拉得更长
-}
 
 .price-text{  //单价用字体样式
   color: black;
@@ -164,6 +154,12 @@ h1.solgan{
   margin-right: 100px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.product-price{
+  color: black;
+  font-size:18px;
+  font-weight: 200;
+
 }
 
  .no-border{        //去掉图片的边框
