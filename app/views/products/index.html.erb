@@ -20,8 +20,8 @@
                 </div>
             </div>
             <div class="col-md-4, pull-right" style="margin-top: 15px; margin-right:25px; ">
-                <% if product.image.present? %>
-                <%= image_tag(product.image.thumb.url, class:"thumbnail no-border") %>
+                <% if product.photos.present? %>
+                 <%= image_tag(product.photos[0].avatar.thumb.url, class: "thumbnail no-border") %>
             <% else %>
                 <%= image_tag("http://placehold.it/200x200&text= No Pic", class:"thumbnail") %>
                 <% end %>
