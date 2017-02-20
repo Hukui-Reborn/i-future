@@ -20,8 +20,8 @@
 
 
 
-.grey-background{  //浅灰色背景
-  background-color:  #848484;
+.bg-index{  //浅灰色背景
+  background-color:  #F2F2F2;
 }
 
 .bg2 {
@@ -57,23 +57,14 @@ h1.solgan{
     margin-top: -5px;
 }
 
-// .layout-company-logos img {
-// display: inline-block;
-// margin: 0 1em 1em;
-// height: 80px;
-// }
-//
-// .text-center {
-//   text-align: center;
-// }
-
-
 
 .bg-linear {  //index商品用渐变色背景
     background: linear-gradient(180deg, #EEEEEE, white);
     color: black;
 }
 .bg-black{
+  padding-top: 200px;
+  padding-bottom:   200px;
   background:#2C2C2C;
 }
 .bg-white {  //白色背景，带阴影
@@ -105,7 +96,6 @@ h1.solgan{
     font-size: 50px;
     font-weight: 200;
     line-height: 55px;
-    margin-top: 300px;
 }
 .body-text-3 {  //
     color: #EFF0F1;
@@ -132,12 +122,15 @@ h1.solgan{
 
 .bg-milk{
   background-color: #EDEFF0;
+  padding-top:100px;
+  padding-bottom: 100px;
+
 }
 
 .index-button {
   text-align: center;
   margin-top: 80px;
-  margin-bottom: 300px;
+
 }
 .btn-danger {
     color: #fff;//字体颜色
