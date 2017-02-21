@@ -29,11 +29,11 @@
                 <%= product.id %>
             </td>
             <td>
-                <% if product.image.present? %>
-                <%= image_tag(product.image.thumb.url, class: "thumbnail") %>
-            <% else %>
-                <%= image_tag("http://placehold.it/200x200&text= No Pic", class: "thumbnail") %>
-                <% end %>
+              <% if product.photos[0].present? %>
+                 <%= image_tag(product.photos[0].avatar.thumb.url, class: "thumbnail no-border") %>
+              <% else %>
+                <%= image_tag("http://placehold.it/200x200&text= No Pic", class:"thumbnail") %>
+              <% end %>
             </td>
             <td>
                 <%= product.title %>
