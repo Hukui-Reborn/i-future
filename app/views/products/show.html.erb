@@ -24,9 +24,9 @@
         <div class="product-price" style="margin-top: 10px;">
             库存：<%= @product.quantity %>
         </div>
-        <div class="pull-left" style="margin-top: 60px;">
+        <div class="pull-left">
             <% if @product.quantity.present? && @product.quantity > 0 %>
-            <%= link_to("加入购物车",add_to_cart_product_path(@product), method: :post , class: "btn btn-lg btn-danger") %>
+            <%= link_to("加入购物车",add_to_cart_product_path(@product), method: :post , class: "btn btn-lg btn-primary") %>
         <% else %>
             已销售一空，无法购买
             <% end %>
@@ -40,7 +40,7 @@
           <%=  %>
           <div style="letter-spacing: -8px">
         <% else %>
-          <%= image_tag p.avatar.url, class:"fix-80"  %>
+          <%= image_tag p.avatar.url, class:"fix-100"  %>
         <% end %>
       <% end %>
       </div>

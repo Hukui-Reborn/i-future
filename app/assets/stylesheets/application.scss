@@ -89,6 +89,12 @@
     font-weight: 200;
     line-height: 40px;
 }
+.body-text-3-1{
+  color: black;
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 30px;
+}
 .body-text-4 {  //
     color: #2C2C2C;
     font-size: 55px;
@@ -161,10 +167,40 @@
 
 }
 
+
+
  .no-border{        //去掉图片的边框
   border: 0px;      //边框=0
 }
-.fix-80{
+.fix-100{
   margin-top: 40px;
   width: 100%;
+}
+
+.cart-style{
+  background: white;
+  color: black;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16);
+  box-sizing: content-box;
+  margin-top:10px;
+}
+.cart-product-title{
+  color: black;
+  padding-top: 80px;
+  font-size:30px;
+  font-weight: 200;
+}
+
+.cart-product-quantity{
+  padding-top: 85px;
+  color: black;
+  font-size:16px;
+  font-weight: 400;
+}
+
+.cart-product-delete{
+  padding-top: 85px;
+  color: black;
+  font-size:20px;
+  font-weight: 400;
 }
