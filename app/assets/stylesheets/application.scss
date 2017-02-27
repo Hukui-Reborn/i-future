@@ -18,42 +18,80 @@
  @import "bootstrap";
  @import "font-awesome";
 
-
- a {
-     color: white;
-     text-decoration: none;
- }
- a:hover {
-   color:#444444;
-    text-decoration: none;
- }
-.bg-index{  //浅灰色背景
-  background-color:  #F2F2F2;
-}
-
-.full-width{  //container-fluid 全屏专用
+/*公用样式*/
+.full-width{  /*container-fluid 全屏专用*/
   margin-left: -15px;
   margin-right: -15px;
 }
 
- .navbar {
-     padding-top: 5px;
-     padding-bottom: 5px;
-     border: 0;
-     border-radius: 0;
-     margin-bottom: 0;
-     font-size: 16px;
-     letter-spacing: 3px;
-     box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16);
-     box-sizing: content-box;
-     
- }
+/*导航栏样式*/
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;    /*无边框*/
+    border-radius: 0;  /*无圆角*/
+    margin-bottom: 0;
+    font-size: 16px;  /*字体大小*/
+    letter-spacing: 3px;  /*字符间距*/
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16);  /*阴影效果*/
+    box-sizing: content-box;
+
+}
 
 .navbar-brand {
-    display: inline-block;	//图片和链接文字显示在同一行
-    margin-right: -10px; //图片和链接文字拉开一点距离
-    margin-top: -5px;
+   display: inline-block;	/*图片和链接文字显示在同一行*/
+   margin-top: -5px; /*调整图标位置*/
 }
+
+
+/*脚注样式*/
+.bg-footer-grey{
+  color: white;   /*字体颜色*/
+  font-size: 18px;  /*字体大小*/
+  letter-spacing: 1px;  /*字符间距*/
+  line-height: 30px;  /*行高*/
+  font-weight: 100;  /*字体粗细*/
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #5A5A5A;
+}
+
+a.footer{                         /*超链接颜色：爱马仕橙色，无下划线*/
+     color: #FF6600;
+     text-decoration: none;
+ }
+a.footer:hover {                 /*鼠标指向超链接后的颜色：黑色，无下划线*/
+   color:black;
+    text-decoration: none;
+ }
+
+
+/*首页样式*/
+
+
+
+
+
+/*产品列表页样式*/
+
+
+
+/*产品详情页样式*/
+
+
+
+/*购物车样式*/
+
+.bg-index{  /*浅灰色背景*/
+  background-color:  #F2F2F2;
+}
+
+
+
+
+
+
+
 
 
 .bg-milk-1{
@@ -62,14 +100,6 @@
   background:white;
 }
 
-.bg-footer-grey{
-  color: white;
-  font-size: 16px;
-  letter-spacing: 1px;
-  font-weight: 300;
-  padding: 15px;
-  background:#5A5A5A;
-}
 
 .bg-white {  //商品列表白色背景，带阴影
     background: white;
