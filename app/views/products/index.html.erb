@@ -6,27 +6,26 @@
             </h1>
         </div>
     </div>
-
-    <% @products.each do |product| %>
-    <div class="container-fluid bg-white">
-        <div class="row product-list-1">
-            <div class="col-md-8">
-                <h2 class="display-text-1"><%= product.title %></h2>
-                <p class="body-text-1"><%= product.description %></p>
-                <b class="price-text">单价：￥<%= product.price %>
-                </b>
-                <div style="margin-top: 10px;">
-                    <%= link_to("了解详情",product_path(product), class:"btn btn-primary") %>
+        <% @products.each do |product| %>
+        <div class="container-fluid bg-white">
+            <div class="row product-list-1">
+                <div class="col-md-8">
+                    <h2 class="display-text-1"><%= product.title %></h2>
+                    <p class="body-text-1"><%= product.description %></p>
+                    <b class="price-text">单价：￥<%= product.price %>
+                    </b>
+                    <div style="margin-top: 10px;">
+                        <%= link_to("了解详情",product_path(product), class:"btn btn-primary") %>
+                    </div>
+                </div>
+                <div class="col-md-4, pull-right" style="margin-top: 15px; margin-right:25px; ">
+                    <% if product.photos.present? %>
+                    <%= image_tag(product.photos[0].avatar.thumb.url, class: "thumbnail no-border") %>
+                <% else %>
+                    <%= image_tag("http://placehold.it/200x200&text= No Pic", class:"thumbnail") %>
+                    <% end %>
                 </div>
             </div>
-            <div class="col-md-4, pull-right" style="margin-top: 15px; margin-right:25px; ">
-                <% if product.photos.present? %>
-                 <%= image_tag(product.photos[0].avatar.thumb.url, class: "thumbnail no-border") %>
-            <% else %>
-                <%= image_tag("http://placehold.it/200x200&text= No Pic", class:"thumbnail") %>
-                <% end %>
-            </div>
         </div>
-    </div>
-    <% end %>
+        <% end %>
 </div>
