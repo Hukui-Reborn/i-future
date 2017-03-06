@@ -1,3 +1,75 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "base";
+
+/*index 4p*/
+.index-part1 {
+    margin-left: -25px;
+    margin-right: -25px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://ww2.sinaimg.cn/large/006tNbRwgy1fdd0h56x2gj318g0ow1kx.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+}
+.index-part2 {
+    margin-left: -25px;
+    margin-right: -25px;
+    background-color: #F3F1EC;
+    color: #1C2C35;
+    padding: 100px;
+}
+.index-part3 {
+    margin-left: -25px;
+    margin-right: -25px;
+    background-color: #FFFFFF;
+    color: #1C2C35;
+    padding: 100px;
+}
+.index-part4 {
+    margin-left: -25px;
+    margin-right: -25px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://ww2.sinaimg.cn/large/006tNbRwgy1fdd0h56x2gj318g0ow1kx.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+.cutline {
+    width: 800px;
+    height: 2px;
+    background-color: #FF6600;
+    margin: 15px auto;
+}
+
+a.index-button {
+    border-radius: 2px;
+    /*边框编程圆角*/
+    background: rgba(255,102,0,0.8);
+    /*背景为透明*/
+    display: inline-block;
+    border: 1.5px solid white;
+    /*边框的粗细和色彩*/
+    color: white;
+    /*字体颜色*/
+    line-height: 0.7;
+    /*压缩行高，让按钮看起来比较细长*/
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /*针对英文的设置，所有字母大写*/
+    letter-spacing: 1px;
+    padding: 14px 37px 13px;
+    margin-right: 10px;
+    margin-top: 35px;
+}
+
+a.index-button:hover {
+    color: white;
+    text-decoration: none;
+    background: #FF5722;
+}
