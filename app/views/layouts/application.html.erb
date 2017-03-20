@@ -3,13 +3,11 @@
     <head>
         <title>爱未来-iFuture</title>
         <%= csrf_meta_tags %>
-
         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron"/>
         <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Monoton' type='text/css'/>
         <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Monoton' type='text/css'/>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nova+Flat" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nova+Flat"/>
     </head>
 
     <body>
@@ -19,9 +17,10 @@
                 <%= render "common/flashes" %>
             </div>
             <%= yield %>
-            <div class="row mt50" >
-              <%=render "common/footer" %>
+            <div class="row mt50">
+                <%=render "common/footer" %>
             </div>
         </div>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     </body>
 </html>
